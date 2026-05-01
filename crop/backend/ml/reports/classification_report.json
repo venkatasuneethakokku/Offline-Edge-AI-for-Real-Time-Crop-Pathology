@@ -1,0 +1,117 @@
+{
+  "Corn___Common_Rust": {
+    "precision": 0.9957627118644068,
+    "recall": 1.0,
+    "f1-score": 0.9978768577494692,
+    "support": 235.0
+  },
+  "Corn___Gray_Leaf_Spot": {
+    "precision": 0.92,
+    "recall": 0.696969696969697,
+    "f1-score": 0.7931034482758621,
+    "support": 99.0
+  },
+  "Corn___Healthy": {
+    "precision": 0.9954545454545455,
+    "recall": 0.9954545454545455,
+    "f1-score": 0.9954545454545455,
+    "support": 220.0
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "precision": 0.8602620087336245,
+    "recall": 0.9800995024875622,
+    "f1-score": 0.9162790697674419,
+    "support": 201.0
+  },
+  "Potato___Early_Blight": {
+    "precision": 0.9945652173913043,
+    "recall": 0.9838709677419355,
+    "f1-score": 0.9891891891891892,
+    "support": 186.0
+  },
+  "Potato___Healthy": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9642857142857143,
+    "f1-score": 0.9473684210526315,
+    "support": 28.0
+  },
+  "Potato___Late_Blight": {
+    "precision": 0.9798994974874372,
+    "recall": 0.9848484848484849,
+    "f1-score": 0.982367758186398,
+    "support": 198.0
+  },
+  "Rice___Brown_Spot": {
+    "precision": 0.6788990825688074,
+    "recall": 0.6065573770491803,
+    "f1-score": 0.6406926406926406,
+    "support": 122.0
+  },
+  "Rice___Healthy": {
+    "precision": 0.782608695652174,
+    "recall": 0.9113924050632911,
+    "f1-score": 0.8421052631578947,
+    "support": 316.0
+  },
+  "Rice___Leaf_Blast": {
+    "precision": 0.6938775510204082,
+    "recall": 0.5483870967741935,
+    "f1-score": 0.6126126126126126,
+    "support": 186.0
+  },
+  "Rice___Neck_Blast": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 195.0
+  },
+  "Wheat___Brown_Rust": {
+    "precision": 0.9943820224719101,
+    "recall": 0.9619565217391305,
+    "f1-score": 0.9779005524861878,
+    "support": 184.0
+  },
+  "Wheat___Healthy": {
+    "precision": 0.9835390946502057,
+    "recall": 0.987603305785124,
+    "f1-score": 0.9855670103092784,
+    "support": 242.0
+  },
+  "Wheat___Yellow_Rust": {
+    "precision": 0.9893617021276596,
+    "recall": 0.9893617021276596,
+    "f1-score": 0.9893617021276596,
+    "support": 188.0
+  },
+  "sugarcane__Bacterial Blight": {
+    "precision": 0.9473684210526315,
+    "recall": 0.782608695652174,
+    "f1-score": 0.8571428571428571,
+    "support": 23.0
+  },
+  "sugarcane__Healthy": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 16.0
+  },
+  "sugarcane__Red Rot": {
+    "precision": 0.8518518518518519,
+    "recall": 0.92,
+    "f1-score": 0.8846153846153846,
+    "support": 25.0
+  },
+  "accuracy": 0.9170420420420421,
+  "macro avg": {
+    "precision": 0.9110444572926162,
+    "recall": 0.9007880009399232,
+    "f1-score": 0.903106693141664,
+    "support": 2664.0
+  },
+  "weighted avg": {
+    "precision": 0.9161250387125818,
+    "recall": 0.9170420420420421,
+    "f1-score": 0.9143242643967681,
+    "support": 2664.0
+  }
+}

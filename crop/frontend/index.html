@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            width: 420px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .result {
+            margin-top: 20px;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background: darkgreen;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Crop Disease Detection</h2>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <br><br>
+    <button onclick="predict()">Predict</button>
+
+    <img id="preview" alt="">
+
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+function formatList(value) {
+    if (Array.isArray(value)) return value.join(", ");
+    return value ?? "";
+}
+
+function predict() {
+    const fileInput = document.getElementById("imageInput");
+    const file = fileInput.files[0];
+
+    if (!file) {
+        alert("Please select an image.");
+        return;
+    }
+
+    const preview = document.getElementById("preview");
+    preview.src = URL.createObjectURL(file);
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    fetch("http://127.0.0.1:19900/predict", {
+        method: "POST",
+        body: formData
+    })
+    .then(async (response) => {
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || "Prediction failed.");
+        return data;
+    })
+    .then((data) => {
+        document.getElementById("result").innerHTML = `
+            <h3>Prediction Result</h3>
+            <strong>Disease:</strong> ${data.disease_name}<br>
+            <strong>Confidence:</strong> ${(data.confidence * 100).toFixed(2)}%<br><br>
+            <strong>Description:</strong> ${data.description}<br><br>
+            <strong>Symptoms:</strong> ${formatList(data.symptoms)}<br><br>
+            <strong>Treatment:</strong> ${formatList(data.treatment)}<br><br>
+            <strong>Prevention:</strong> ${formatList(data.prevention)}
+        `;
+    })
+    .catch((error) => {
+        console.error(error);
+        alert(error.message || "Error connecting to backend.");
+    });
+}
+</script>
+</body>
+</html>

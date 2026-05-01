@@ -1,0 +1,299 @@
+{
+  "Corn___Common_Rust": {
+    "disease_name": "Corn - Common Rust",
+    "description": "A fungal disease that forms rust-colored pustules on leaves and can reduce yield when severe.",
+    "symptoms": [
+      "Small elongated pustules on both leaf surfaces",
+      "Reddish-brown powdery spores",
+      "Early leaf senescence in severe infections"
+    ],
+    "treatment": [
+      "Apply labeled fungicides when disease pressure is high",
+      "Monitor field regularly during humid conditions",
+      "Follow local agronomy guidelines for spray timing"
+    ],
+    "prevention": [
+      "Use rust-tolerant hybrids",
+      "Avoid excessive plant density",
+      "Maintain balanced field nutrition"
+    ]
+  },
+  "Corn___Gray_Leaf_Spot": {
+    "disease_name": "Corn - Gray Leaf Spot",
+    "description": "A fungal leaf disease that creates rectangular lesions and reduces photosynthetic area.",
+    "symptoms": [
+      "Long rectangular gray to tan lesions",
+      "Lesions parallel to veins",
+      "Lower canopy infection progressing upward"
+    ],
+    "treatment": [
+      "Apply recommended fungicide where economically justified",
+      "Scout early and repeat as needed under high pressure"
+    ],
+    "prevention": [
+      "Use resistant hybrids",
+      "Rotate crops to reduce inoculum",
+      "Manage crop residue effectively"
+    ]
+  },
+  "Corn___Healthy": {
+    "disease_name": "Corn - Healthy",
+    "description": "No visible disease symptoms detected on the sampled leaf.",
+    "symptoms": [
+      "Uniform green leaf color",
+      "No necrotic lesions or fungal growth"
+    ],
+    "treatment": [
+      "No disease treatment required",
+      "Continue standard crop monitoring"
+    ],
+    "prevention": [
+      "Maintain good field sanitation",
+      "Follow balanced fertilization and irrigation practices"
+    ]
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "disease_name": "Corn - Northern Leaf Blight",
+    "description": "A fungal disease causing long cigar-shaped lesions that can significantly impact grain fill.",
+    "symptoms": [
+      "Large elliptical gray-green lesions",
+      "Lesions turn tan as disease progresses",
+      "Rapid spread under cool humid weather"
+    ],
+    "treatment": [
+      "Use labeled fungicides during susceptible growth stages",
+      "Prioritize treatment in high-value fields"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Rotate with non-host crops",
+      "Bury or manage infected residue"
+    ]
+  },
+  "Potato___Early_Blight": {
+    "disease_name": "Potato - Early Blight",
+    "description": "A fungal disease characterized by concentric ring lesions on older leaves.",
+    "symptoms": [
+      "Brown lesions with target-like rings",
+      "Yellow halo around lesions",
+      "Defoliation in severe cases"
+    ],
+    "treatment": [
+      "Apply protectant/systemic fungicides per label",
+      "Remove heavily infected foliage where feasible"
+    ],
+    "prevention": [
+      "Use certified healthy seed tubers",
+      "Rotate crops and avoid continuous potato planting",
+      "Improve canopy airflow"
+    ]
+  },
+  "Potato___Healthy": {
+    "disease_name": "Potato - Healthy",
+    "description": "No visible signs of potato leaf disease are present.",
+    "symptoms": [
+      "Consistent green foliage",
+      "No blight lesions or spotting"
+    ],
+    "treatment": [
+      "No treatment required",
+      "Maintain preventive crop care"
+    ],
+    "prevention": [
+      "Routine scouting",
+      "Prevent prolonged leaf wetness"
+    ]
+  },
+  "Potato___Late_Blight": {
+    "disease_name": "Potato - Late Blight",
+    "description": "A highly destructive oomycete disease that spreads quickly in cool, wet weather.",
+    "symptoms": [
+      "Water-soaked lesions turning brown/black",
+      "White fungal growth under humid conditions",
+      "Rapid canopy collapse"
+    ],
+    "treatment": [
+      "Apply anti-oomycete fungicides immediately",
+      "Destroy infected plants to reduce spread"
+    ],
+    "prevention": [
+      "Use resistant cultivars when available",
+      "Avoid overhead irrigation late in the day",
+      "Remove volunteer potato plants"
+    ]
+  },
+  "Rice___Brown_Spot": {
+    "disease_name": "Rice - Brown Spot",
+    "description": "A fungal disease producing brown lesions that can lower grain quality and yield.",
+    "symptoms": [
+      "Circular to oval brown spots on leaves",
+      "Gray centers with dark margins in older lesions",
+      "Seedling vigor reduction under severe infection"
+    ],
+    "treatment": [
+      "Use approved fungicides based on field threshold",
+      "Correct nutrient deficiencies, especially potassium"
+    ],
+    "prevention": [
+      "Use disease-free seeds",
+      "Ensure balanced fertilization",
+      "Avoid drought and nutrient stress"
+    ]
+  },
+  "Rice___Healthy": {
+    "disease_name": "Rice - Healthy",
+    "description": "No disease-like lesions detected on rice leaves.",
+    "symptoms": [
+      "Uniform healthy green leaves",
+      "No necrotic spots or blight areas"
+    ],
+    "treatment": [
+      "No disease treatment necessary",
+      "Continue normal monitoring schedule"
+    ],
+    "prevention": [
+      "Maintain clean nursery practices",
+      "Use balanced nutrient management"
+    ]
+  },
+  "Rice___Leaf_Blast": {
+    "disease_name": "Rice - Leaf Blast",
+    "description": "A major fungal disease causing spindle-shaped lesions and serious productivity loss.",
+    "symptoms": [
+      "Spindle-shaped lesions with gray centers",
+      "Brown lesion margins",
+      "Coalescing lesions under severe pressure"
+    ],
+    "treatment": [
+      "Apply blast-specific fungicides as recommended",
+      "Time applications around disease-conducive weather"
+    ],
+    "prevention": [
+      "Use blast-resistant varieties",
+      "Avoid excess nitrogen application",
+      "Maintain proper plant spacing"
+    ]
+  },
+  "Rice___Neck_Blast": {
+    "disease_name": "Rice - Neck Blast",
+    "description": "Blast infection at panicle neck leading to poor grain filling and white heads.",
+    "symptoms": [
+      "Dark lesions at neck node",
+      "Panicle drying and incomplete grain filling",
+      "White, empty panicles in severe cases"
+    ],
+    "treatment": [
+      "Spray appropriate fungicides at booting and heading stages",
+      "Remove heavily infected residues post-harvest"
+    ],
+    "prevention": [
+      "Use resistant cultivars",
+      "Balanced nitrogen management",
+      "Field sanitation between seasons"
+    ]
+  },
+  "sugarcane___Bacterial_Blight": {
+    "disease_name": "Sugarcane - Bacterial Blight",
+    "description": "A bacterial disease causing leaf streaking and blight symptoms that reduce cane vigor.",
+    "symptoms": [
+      "Water-soaked streaks progressing to necrosis",
+      "Leaf tip drying",
+      "Reduced tiller vigor"
+    ],
+    "treatment": [
+      "Remove and destroy severely affected leaves/plants",
+      "Apply bactericide only where locally recommended"
+    ],
+    "prevention": [
+      "Use clean planting material",
+      "Avoid mechanical injury during field operations",
+      "Improve drainage to reduce stress"
+    ]
+  },
+  "sugarcane___Healthy": {
+    "disease_name": "Sugarcane - Healthy",
+    "description": "No visible disease symptoms detected on sugarcane leaf tissue.",
+    "symptoms": [
+      "Bright green leaves",
+      "No streaking, spots, or rot lesions"
+    ],
+    "treatment": [
+      "No treatment required",
+      "Maintain routine crop management"
+    ],
+    "prevention": [
+      "Use healthy setts",
+      "Keep good field sanitation"
+    ]
+  },
+  "sugarcane___Red_Rot": {
+    "disease_name": "Sugarcane - Red Rot",
+    "description": "A destructive fungal disease often associated with reddening of internal cane tissue and leaf symptoms.",
+    "symptoms": [
+      "Leaf yellowing and drying from top",
+      "Stunted growth",
+      "Internal red discoloration with white patches in stalks"
+    ],
+    "treatment": [
+      "Rogue and destroy infected clumps",
+      "Use recommended fungicidal sett treatment before planting"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Use disease-free seed setts",
+      "Practice crop rotation where feasible"
+    ]
+  },
+  "Wheat___Brown_Rust": {
+    "disease_name": "Wheat - Brown Rust",
+    "description": "A fungal rust disease producing orange-brown pustules and reducing photosynthesis.",
+    "symptoms": [
+      "Small orange-brown pustules on leaves",
+      "Pustules scattered across leaf blade",
+      "Premature leaf drying in severe infection"
+    ],
+    "treatment": [
+      "Apply rust-effective fungicide at early disease onset",
+      "Monitor upper canopy during susceptible growth stages"
+    ],
+    "prevention": [
+      "Grow resistant cultivars",
+      "Avoid late sowing where rust pressure is high",
+      "Maintain balanced nutrient supply"
+    ]
+  },
+  "Wheat___Healthy": {
+    "disease_name": "Wheat - Healthy",
+    "description": "No rust or blight features identified on the wheat leaf.",
+    "symptoms": [
+      "Healthy green leaf surface",
+      "No pustules or necrotic patches"
+    ],
+    "treatment": [
+      "No treatment needed",
+      "Continue field scouting"
+    ],
+    "prevention": [
+      "Use clean seed",
+      "Follow integrated disease management practices"
+    ]
+  },
+  "Wheat___Yellow_Rust": {
+    "disease_name": "Wheat - Yellow Rust",
+    "description": "A rust disease causing yellow stripe-like pustules along wheat leaves.",
+    "symptoms": [
+      "Yellow pustules in linear stripes",
+      "Rapid spread in cool moist conditions",
+      "Reduction in green leaf area"
+    ],
+    "treatment": [
+      "Use recommended fungicides for stripe rust",
+      "Apply at early symptom appearance"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Timely sowing and field monitoring",
+      "Avoid overuse of nitrogen"
+    ]
+  }
+}
